@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00b050"
+    android:orientation="horizontal" >
+    <TextView 
+        android:id="@+id/draw_ic"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:layout_gravity="center_vertical"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:textSize="22sp"
+        android:text="我"/>
+    <TextView android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+        android:textSize="22sp"
+        android:text="首页"/>
+	<ImageButton 
+	    android:id="@+id/bar_right"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:src="@drawable/ic_menu_moreoverflow_normal_holo_light"
+	    android:layout_alignParentRight="true"/>
+</RelativeLayout>

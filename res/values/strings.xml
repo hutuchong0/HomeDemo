@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HomeDemo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="userName">小苹果</string>
+    <string name="userText">人艰不拆...</string>
+    <string name="draw_pesron_info">个人资料</string>
+    <string name="draw_my_focus">我的关注</string>
+    <string name="draw_my_collect">我的收藏</string>
+    <string name="draw_my_topic">我的话题</string>
+    <string name="draw_product_feedback">产品反馈</string>
+    <string name="draw_call_service">联系客服</string>
+
+</resources>
