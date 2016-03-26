@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#E3E3E3"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/home_iv"
+        style="@style/iv_bottom_icon_sytle"
+        android:text="@string/tab0"/>
+
+    <TextView
+        android:id="@+id/search_iv"
+        style="@style/iv_bottom_icon_sytle"
+        android:text="@string/tab1"/>
+
+    <TextView
+        android:id="@+id/catalog_iv"
+        style="@style/iv_bottom_icon_sytle"
+        android:text="@string/tab2"/>
+
+
+    <TextView
+        android:id="@+id/setting_iv"
+        style="@style/iv_bottom_icon_sytle"
+        android:text="@string/tab3" />
+
+</LinearLayout>

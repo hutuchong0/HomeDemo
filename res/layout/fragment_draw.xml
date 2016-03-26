@@ -10,7 +10,7 @@
 	    android:layout_height="0dp"
 	    android:layout_weight="3"
 	    android:gravity="center_vertical"
-	    android:background="@color/draw_user_bg">
+	    android:background="#7CB342">
 	    <ImageView 
 	        android:id="@+id/head_pic"
 	        android:layout_width="100dp"

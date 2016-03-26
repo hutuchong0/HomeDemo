@@ -24,6 +24,14 @@
         <item name="android:paddingTop">10dp</item>
         <item name="android:paddingBottom">10dp</item>
         <item name="android:drawableRight">@drawable/ic_foward</item>
-        <item name="android:drawableTop">@drawable/line</item>
+    </style>
+    
+    <style name="iv_bottom_icon_sytle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
     </style>
 </resources>

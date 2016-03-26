@@ -4,12 +4,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.tydic.app.homedemo.HomeActivity" >
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="#ffffff" >
 
-    <FrameLayout
-        android:id="@+id/container"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+	    <include
+	        android:id="@+id/layout_bottom"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        layout="@layout/home_activity_bottom" />
+	
+	    <FrameLayout
+	        android:id="@+id/fm_main"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_above="@id/layout_bottom" />
 
+	</RelativeLayout>
     <fragment
         android:id="@+id/navigation_drawer"
         android:name="com.tydic.app.homedemo.DrawerFragment"

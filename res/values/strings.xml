@@ -12,5 +12,9 @@
     <string name="draw_my_topic">我的话题</string>
     <string name="draw_product_feedback">产品反馈</string>
     <string name="draw_call_service">联系客服</string>
+    <string name="tab0">首页</string>
+    <string name="tab1">Tab1</string>
+    <string name="tab2">Tab2</string>
+    <string name="tab3">更多</string>
 
 </resources>
