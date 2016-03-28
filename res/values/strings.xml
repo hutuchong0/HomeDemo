@@ -16,5 +16,6 @@
     <string name="tab1">Tab1</string>
     <string name="tab2">Tab2</string>
     <string name="tab3">更多</string>
+    <string name="exti_system_hint">双击退出应用</string>
 
 </resources>
